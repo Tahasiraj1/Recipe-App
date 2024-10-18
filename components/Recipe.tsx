@@ -260,7 +260,7 @@ const RecipesComponent = () => {
               size="icon"
               onClick={handlePreviousPage}
               disabled={pageFrom === 0}
-              className='rounded-full active:scale-90 transition-transform duration-300'
+              className='bg-orange-700 rounded-full active:scale-90 transition-transform duration-300'
               >
                 <ChevronLeft />
               </Button>
@@ -268,7 +268,7 @@ const RecipesComponent = () => {
               size="icon"
               disabled={pageFrom === 96}
               onClick={handleNextPage}
-              className='rounded-full active:scale-90 transition-transform duration-300'
+              className='bg-orange-700 rounded-full active:scale-90 transition-transform duration-300'
               >
                 <ChevronRight />
               </Button>
