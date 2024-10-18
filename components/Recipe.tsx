@@ -46,6 +46,7 @@ const RecipesComponent = () => {
   const handleNextPage = () => {
     setPageFrom(pageFrom + 12);
     setPageTo(pageTo + 12);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handlePreviousPage = () => {
@@ -122,7 +123,7 @@ const RecipesComponent = () => {
         onClick={fetchRandomRecipes}
       >
         <ChefHat className='-translate-y-1' size={40} />
-        Recipea
+        Cookify
       </h1>
     </Link>
       <div className='relative flex'>
